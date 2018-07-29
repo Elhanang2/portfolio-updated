@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css"  href="assets/css/style.css" />
+  <link rel="stylesheet" type="text/css"  href="assets/css/reset.css" />
+  
+</head>
+<body>
+
+<nav class="navbar navbar-inverse" data-spy="affix" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="">Home</a></li>
+        <li><a href="#portfolio">About</a></li>
+        <li><a href="#work-container">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
+  
+</nav>
+
+<div class="container-home" style="background-image:url('assets/images/background.jpg')">
+  <h1>Aynalem Zewdie <br><br>Web developer  </h1>
+</div>
+
+<div class="jumbotron">
+  <div id="portfolio" class="container text-center">
+    <h1>My Portfolio</h1>      
+    <div class="media col-sm-12">
+      <h2 class="media-heading">About Me</h2>
+      <div class="media-body">
+       
+        <img src="assets/images/IMG_3614.jpg" class="media-object">
+        <p>I live in downtown LA.<br>
+          Full stack web developer.<br> 
+          I have excellent interpersonal and communication abilities.<br> 
+          Enjoys being working as a team and succeeds in high pressure and challeng working environment.<br>
+          I am a hardworking and honest .<br> I am a good timekeeper and always willing to learn new skills.<br> 
+          I am friendly, helpful and polite, have a good sense of humor.<br>  I am always up for new challenges. 
+        </p>
+
+      </div>
+    </div>
+  </div>
+</div><br><br>
+  
+<div id="work-container" class="container-fluid   text-center">    
+  <h3>Some Of My Work</h3><br>
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3">
+      <p>Giphy api to search <br> and control animation </p>
+      <a href="https://elhanang2.github.io/GIPHYrepo/"><img src="assets/images/giphy.jpg" class="img-circle"  alt="Cinque Terre"  ></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
+      <p>  Word Guess Game <br> play by gessing word </p>
+      <a href="https://elhanang2.github.io/Word-Guess-Game/"><img src="assets/images/wordguess.jpg" class="img-circle" alt="Cinque Terre"  ></a>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3"> 
+      <p>Star Wars RPG <br> star wars game</p>
+      <a href="https://elhanang2.github.io/unit-4-game-RPG-/"><img src="assets/images/RPG.png" class="img-circle" alt="Cinque Terre"  ></a>
+      <!-- <a href="#"><img src="assets/images/th.jpg" class="img-circle" alt="Cinque Terre"  ></a> -->
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 ">
+      <p>Cristal collector game  <br> collect the crystal to play </p>
+      <a href="https://elhanang2.github.io/unit-4-game/"><img src="assets/images/crystal.jpg" class="img-circle" alt="Cinque Terre"  ></a>
+    </div>
+    
+  <br><br><br>
+
+  <!-- <div class="row"> -->
+    <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3">
+      <p>Train Scheduler</p>
+      <a href="https://elhanang2.github.io/Train-Scheduler/"><img src="assets/images/train.jpg" class="img-circle" alt="Cinque Terre"  ></a>
+    </div>
+    <div class="col-sm-12 col-sm-6 col-md-4 col-lg-3"> 
+      <p>Trivia Game (quiz)</p>
+      <a href="https://elhanang2.github.io/TriviaGame/"><img src="assets/images/trivia.png" class="img-circle" alt="Cinque Terre"  ></a>
+    </div>
+    <div class="col-sm-3"> 
+      
+    </div>
+    <div class="col-sm-3">
+      
+    </div>
+  </div>
+  <!-- </div> -->
+  <br><br>
+</div><br><br>
+
+<div id=contact>
+  <br>
+  <h2>Contact</h2>
+  <form class="form">
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" placeholder="Enter email">
+    </div>
+    <div class="form-group">
+      <label for="msg">Message:</label>
+      <input type="message" class="form-control" id="msg" placeholder="message">
+    </div>
+    
+    <button  id="submit1" class="btn btn-default btn-primary">Submit</button>
+  </form>
+  <br><br><br><br>
+</div>
+
+<footer class="container-fluid text-center ">
+  <p1>Aynalem@2018</p1>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase.js"></script>
+  <script src="assets/java/portfolio.js"></script>
+</body>
+</html>
